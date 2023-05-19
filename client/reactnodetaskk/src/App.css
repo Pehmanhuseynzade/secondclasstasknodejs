@@ -1,0 +1,11 @@
+.formdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.box{
+  border: 2px solid blue;
+  padding: 70px 80px;
+  border-radius: 5px;
+}
