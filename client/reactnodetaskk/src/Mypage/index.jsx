@@ -7,10 +7,10 @@ import Button from '@mui/material/Button';
 import { useEffect, useState } from "react";
 import { getAlldatas,deleteDatasByID,getAlldatasbyID } from '../api/httpsrequest';
  import { Table } from "antd";
- import {useNavigate} from "react-router-dom"
+ //import {useNavigate} from "react-router-dom"
  //import { Link } from "react-router-dom";
 function Mypage() {
-     const navigate = useNavigate();
+    // const navigate = useNavigate();
 
   let [suppliers, setSuppliers] = useState([]);
   const columns = [
